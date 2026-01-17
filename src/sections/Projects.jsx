@@ -7,7 +7,7 @@ const projects = [
     description:"This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
     image: "/projects/Pennyflow.png",
     tags: ["HTML", "CSS", "Javascript"],
-    link: "#",
+    link: "https://penny-flow-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/penny-flow-html-css-javascript",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     description: "Pulp is a fully responsive, animated web application built using HTML, CSS, and JavaScript. The project focuses on delivering a smooth and visually engaging user experience through modern layouts, animations, and responsive design techniques.",
     image: "/projects/Pulp.png",
     tags: ["HTML", "CSS", "Javascript"],
-    link: "#",
+    link: "https://pulp-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/pulp-html-css-javascript",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     description: "The quiz provides instant visual feedback, highlighting correct answers in green and incorrect answers in red. To ensure fairness, once an answer is selected, it cannot be changed, even if the user navigates back and forth between questions.",
     image: "/projects/Quiz.png",
     tags: ["HTML", "CSS", "Javascript"],
-    link: "#",
+    link: "https://quiz-time-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/quiz-time-html-css-javascript",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     description: "Rhythm is a responsive music web application that allows users to play, pause, and switch between songs seamlessly. The application features an interactive UI with a dynamic bottom music player that displays the currently playing track, enhancing the overall user experience. Built using HTML, CSS, and JavaScript, the project focuses on smooth interactivity, clean design, and responsive behavior across different screen sizes.",
     image: "/projects/Rhythm.png",
     tags: ["HTML", "CSS", "Javascript"],
-    link: "#",
+    link: "https://rhythm-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/rhythm-html-css-javascript",
   },
 ];
