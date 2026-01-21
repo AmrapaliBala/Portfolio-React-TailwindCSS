@@ -3,15 +3,17 @@ import { ArrowRight, ChevronDown, Download, Github, Linkedin, Twitter } from "lu
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const skills = [
-  "React",
+  "React.js",
   "JavaScript",
   "Tailwind CSS",
   "CSS",
   "HTML",
-  "Figma",
   "Java",
-  "Node.js",
-  "Express Js",
+  "Node.js(Beginner)",
+  "Express Js(Beginner)",
+  "Figma",
+  "Vercel",
+  "Git",
   "GitHub Actions",
 ];
 
