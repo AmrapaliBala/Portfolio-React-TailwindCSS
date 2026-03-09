@@ -23,7 +23,7 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-cyan-blue">.</span>
+              AM<span className="text-cyan-blue">.</span>
             </a>
             <p className="text-sm text-faded-blue mt-2">
               © {currentYear} Amrapali Bala. All rights reserved.
