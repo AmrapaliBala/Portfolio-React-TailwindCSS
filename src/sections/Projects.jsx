@@ -4,7 +4,7 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
     title: "Penny flow",
-    description:"This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
+    description: "This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
     image: "/projects/Pennyflow.png",
     tags: ["HTML", "CSS", "Javascript"],
     link: "https://penny-flow-html-css-javascript.vercel.app/",
