@@ -2,6 +2,15 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
+    {
+    title: "MediConnect",
+    description: "MediConnect is a full-stack doctor appointment booking platform that connects patients, doctors, and administrators through a secure and user-friendly web application. The system provides three dedicated panels :Patient Panel,Doctor Panel,Admin Panel",
+    image: "/projects/MediConnect.png",
+    tags: ["React", "React Router", "Axios" ,"Tailwind CSS","Node.js","Express.js","MongoDB","MongoDB Atlas","JWT","bcrypt","Multer","Cloudinary",
+      "CORS"],
+    link: "https://mediconnect-frontend-owrs.onrender.com",
+    github: "https://github.com/AmrapaliBala/MediConnect",
+  },
   {
     title: "Penny flow",
     description: "This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
@@ -9,6 +18,14 @@ const projects = [
     tags: ["HTML", "CSS", "Javascript"],
     link: "https://penny-flow-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/penny-flow-html-css-javascript",
+  },
+    {
+    title: "Dashboard",
+    description: "This project is a modern analytics dashboard built using React.js, Tailwind CSS, Axios, and ApexCharts. The application provides a responsive interface for visualizing business-related data such as projects, clients, team members, and platform statistics.The dashboard integrates public REST APIs to fetch and display dynamic data in real time, demonstrating practical API consumption, state management with React Hooks, and component-based architecture.",
+    image: "/projects/Dashboard.png",
+    tags: ["React.js", "Tailwind CSS", "ApexCharts","React Route","REST APIs"],
+    link: "https://dashboard-react-tailwind-css.vercel.app/",
+    github: "https://github.com/AmrapaliBala/dashboard-react-tailwindCSS",
   },
   {
     title: "Pulp",
@@ -45,10 +62,8 @@ export const Projects = () => {
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/25 rounded-full blur-2xl" />
 
       <div className="container mx-auto px-10 relative z-10">
-
         {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
-
           <span className="text-cyan-blue text-sm font-medium tracking-wider uppercase animate-fade-in">
             Featured Work
           </span>
@@ -56,31 +71,22 @@ export const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-cyan-blue">
             Projects
             <span className="font-serif italic font-normal text-white">
-              {" "}
-              I’ve enjoyed building.
+              {" "}I’ve enjoyed building.
             </span>
           </h2>
 
           <p className="text-faded-blue animate-fade-in animation-delay-200">
             A collection of my recent projects,ranging from responsive designs to functional code.
           </p>
-
         </div>
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, idx) => (
-            <div
-              key={idx}
-              className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
-              style={{ animationDelay: `${(idx + 1) * 100}ms` }}>
-
+            <div key={idx} className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1" style={{ animationDelay: `${(idx + 1) * 100}ms` }}>
               <div className="relative overflow-hidden aspect-video">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                />
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+                
                 <div className="absolute inset-0 bg-gradient-to-t from-inky-blue via-inky-blue/50 to-transparent opacity-60" />
 
                 {/* Overlay Links */}
@@ -93,12 +99,10 @@ export const Projects = () => {
                     <Github className="w-5 h-5" />
                   </a>
                 </div>
-
               </div>
 
               {/* Content */}
               <div className="p-6 space-y-4">
-
                 <div className="flex items-start justify-between">
                   <h3 className="text-xl font-semibold group-hover:text-cyan-blue transition-colors">
                     {project.title}
@@ -107,9 +111,7 @@ export const Projects = () => {
                   <ArrowUpRight className="w-5 h-5  text-faded-blue group-hover:text-cyan-blue group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
                 </div>
 
-                <p className="text-faded-blue text-sm">
-                  {project.description}
-                </p>
+                <p className="text-faded-blue text-sm">{project.description}</p>
 
                 <div className="flex flex-wrap gap-4">
                   {project.tags.map((tag, tagIdx) => (
@@ -118,9 +120,7 @@ export const Projects = () => {
                     </span>
                   ))}
                 </div>
-
               </div>
-
             </div>
           ))}
         </div>
@@ -128,13 +128,10 @@ export const Projects = () => {
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
+              View All Projects <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>
-
       </div>
-
     </section>
   );
 };

@@ -40,25 +40,34 @@ export const About = () => {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold leading-tight animate-fade-in animation-delay-100 text-cyan-blue">
-              Design-driven frontend developer 
+             Full-Stack Developer
               <span className="font-serif italic font-normal text-white">
-               {" "} crafting clean, responsive web experiences.
+               {" "}building scalable applications with clean, responsive user experiences.
               </span>
             </h2>
 
             <div className="space-y-4 text-faded-blue animate-fade-in animation-delay-200">
-              <p>I’m a frontend developer who enjoys building clean, responsive, and visually
-                 refined web interfaces. I work with HTML, CSS, JavaScript, React, and Tailwind CSS,
-                  and I have a foundational understanding of Node.js, Express.js, and Java.
+              <p>I am a full-stack web developer with experience building modern, responsive, 
+                and user-friendly web applications using React.js, JavaScript, Node.js, Express.js,
+                and MongoDB. I enjoy developing end-to-end solutions, from creating intuitive user
+                interfaces to building RESTful APIs and integrating databases. While 
+                I particularly enjoy crafting clean and engaging frontend experiences, I also 
+                appreciate working on backend logic and developing scalable, efficient 
+                applications.
               </p>
 
-              <p>I’m passionate about clean code, thoughtful layouts, and creating user experiences
-                 that feel both functional and elegant. Design plays a big role in how I build— I 
-                 enjoy translating ideas and UI concepts into polished, responsive interfaces that
-                  work seamlessly across devices.
+              <p>My experience includes REST API integration and development, JWT authentication, 
+                password encryption using bcrypt, file uploads with Multer, and database management
+                with MongoDB and Mongoose. I have worked with technologies such as React Hooks,
+                React Router, Axios, HTML5, CSS3, Tailwind CSS, and have a basic understanding
+                of SQL and Core Java with strong object-oriented programming fundamentals.
               </p>
 
-              <p>I’m always learning, improving, and refining my approach to both design and development.
+              <p>I am proficient with development tools including Git, GitHub, Postman, Figma, and 
+                Vercel, and I value writing clean, maintainable, and efficient code. I am currently
+                expanding my skills by learning Next.js and TypeScript to build more scalable and 
+                production-ready applications. I enjoy solving real-world problems, continuously 
+                learning new technologies, and collaborating to create high-quality software.
               </p>
             </div>
 

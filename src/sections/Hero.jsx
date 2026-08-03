@@ -3,15 +3,22 @@ import { ArrowRight, ChevronDown, Download, Github, Linkedin, Twitter } from "lu
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const skills = [
+  "Node.js",
+  "Express Js",
+  "JWT Authentication",
+  " MongoDB",
+  "SQL",
   "React.js",
   "JavaScript",
+  "REST API Integration",
+  "React Hooks",
+  "React Router",
   "Tailwind CSS",
-  "CSS",
-  "HTML",
+  "CSS3",
+  "HTML5",
   "Java",
-  "Node.js(Beginner)",
-  "Express Js(Beginner)",
   "Figma",
+  "Postman",
   "Vercel",
   "Git",
   "GitHub Actions",
@@ -49,7 +56,7 @@ export const Hero = ({ onContactClick }) => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-cyan-blue">{/* flexbox that hugs its content */}
                 <span className="w-2 h-2 bg-cyan-blue rounded-full animate-pulse" />
-                Frontend developer
+                  Fullstack developer
               </span>
             </div>
 
@@ -58,13 +65,15 @@ export const Hero = ({ onContactClick }) => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
                  Where thoughtful <span className="text-cyan-blue glow-text">design</span>
                 <br />meets clean
-                <br /> <span className="font-serif italic font-normal text-white">frontend code</span>
+                <br /> <span className="font-serif italic font-normal text-white">code</span>
               </h1>
 
               <p className="text-lg text-faded-blue max-w-lg animate-fade-in animation-delay-200">
-               I’m a frontend developer who enjoys building clean, responsive user interfaces using
-                HTML, CSS, JavaScript, React, and Tailwind CSS, while translating designs from
-                Figma into functional web experiences
+                  I'm a full-stack web developer with a strong interest in frontend development. I build
+                  responsive and scalable web applications using React.js, JavaScript, Node.js, Express.js,
+                  and MongoDB, with experience in REST API development, JWT authentication, and database 
+                  integration. I enjoy creating intuitive user interfaces, integrating APIs, and continuously
+                  learning modern technologies like Next.js and TypeScript.
               </p>
             </div>
 
