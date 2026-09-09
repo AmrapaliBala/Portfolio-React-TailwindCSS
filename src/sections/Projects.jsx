@@ -12,6 +12,14 @@ const projects = [
     github: "https://github.com/AmrapaliBala/MediConnect",
   },
   {
+    title: "NoteFlow",
+    description: "Created a responsive note-taking application featuring CRUD operations, search, sorting, dark mode, and localStorage persistence. Established a modern landing page and interactive dashboard using reusable React components, Motion animations, and toast notifications.",
+    image: "/projects/NoteFlow.png",
+    tags: ["Next.js 16","React.js","JavaScript (ES6+)","Tailwind CSS","React Context API","Motion (Framer Motion)","Lucide React","Browser Local Storage"],
+    link: "https://note-flow-nextjs-reactjs-javascript.vercel.app/",
+    github: "https://github.com/AmrapaliBala/noteFlow-nextjs-reactjs-javascript-tailwind-framermotion",
+  },
+  {
     title: "Penny flow",
     description: "This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
     image: "/projects/Pennyflow.png",
