@@ -51,14 +51,6 @@ const projects = [
     link: "https://quiz-time-html-css-javascript.vercel.app/",
     github: "https://github.com/AmrapaliBala/quiz-time-html-css-javascript",
   },
-  {
-    title: "Rhythm",
-    description: "Rhythm is a responsive music web application that allows users to play, pause, and switch between songs seamlessly. The application features an interactive UI with a dynamic bottom music player that displays the currently playing track, enhancing the overall user experience. Built using HTML, CSS, and JavaScript, the project focuses on smooth interactivity, clean design, and responsive behavior across different screen sizes.",
-    image: "/projects/Rhythm.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    link: "https://rhythm-html-css-javascript.vercel.app/",
-    github: "https://github.com/AmrapaliBala/rhythm-html-css-javascript",
-  },
 ];
 
 export const Projects = () => {
