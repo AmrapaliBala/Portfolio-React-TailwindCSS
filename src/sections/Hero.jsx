@@ -9,6 +9,8 @@ const skills = [
   " MongoDB",
   "SQL",
   "React.js",
+  "Next.js",
+  "TypeScript(basic)",
   "JavaScript",
   "REST API Integration",
   "React Hooks",
