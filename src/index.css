@@ -110,10 +110,6 @@
     animation: fade-in 0.8s ease-out both;
   }
 
-  .animate-fade-in {
-    animation: fade-in 0.8s ease-out both;
-  }
-
   .animate-float {
     animation: float 4s ease-in-out infinite;
   }

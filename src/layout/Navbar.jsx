@@ -48,7 +48,6 @@ export const Navbar = ({ onContactClick }) => {
         <button className="md:hidden p-2 text-whitish-grey cursor-pointer" onClick={() => setIsMobileMenuOpen((prev) => !prev)}>
           {isMobileMenuOpen ? <X size={24}/>:<Menu size={24}/>}
         </button>
-
       </nav>
 
       {isMobileMenuOpen && (<div className="md:hidden glass-strong animate-fade-in">

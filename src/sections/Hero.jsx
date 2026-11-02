@@ -54,7 +54,6 @@ export const Hero = ({ onContactClick }) => {
 
           {/* left column*/}
           <div className="space-y-8">
-
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-cyan-blue">{/* flexbox that hugs its content */}
                 <span className="w-2 h-2 bg-cyan-blue rounded-full animate-pulse" />
@@ -84,14 +83,10 @@ export const Hero = ({ onContactClick }) => {
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
 
-              <a
-                href="/Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Opens in a new tab — you can download from there">
+              <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" title="Opens in a new tab — you can download from there">
                   <AnimatedBorderButton>
                     <Download className="w-5 h-5" />
-                    Download CV
+                      Download CV
                   </AnimatedBorderButton>
               </a>
             </div>
@@ -115,7 +110,7 @@ export const Hero = ({ onContactClick }) => {
           <div className="relative animate-fade-in animation-delay-300">
             <div className="relative max-w-md md:max-w-xl lg:max-w-2xl mx-auto">
               
-              <div className="relative  p-2 glow-border">
+              <div className="relative p-2">
                 <img src="/profile.png" alt="" className="w-full object-cover rounded-1xl" />
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
@@ -125,12 +120,9 @@ export const Hero = ({ onContactClick }) => {
                     </span>
                   </div>
                 </div>
-
               </div>
             </div>
-
           </div>
-
         </div>
 
         {/* skills */}
