@@ -29,7 +29,7 @@ const skills = [
 export const Hero = ({ onContactClick }) => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center overflow-hidden ">
-      
+
       <div className="absolute inset-0">
         <img src="/hero.jpg" alt="" className="w-full h-full opacity-80" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/60 to-background" />
@@ -57,24 +57,25 @@ export const Hero = ({ onContactClick }) => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-cyan-blue">{/* flexbox that hugs its content */}
                 <span className="w-2 h-2 bg-cyan-blue rounded-full animate-pulse" />
-                  Fullstack developer
+                Fullstack developer
               </span>
             </div>
 
             {/* headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                 Where thoughtful <span className="text-cyan-blue glow-text">design</span>
+                Where thoughtful <span className="text-cyan-blue glow-text">design</span>
                 <br />meets clean
                 <br /> <span className="font-serif italic font-normal text-white">code</span>
               </h1>
 
               <p className="text-lg text-faded-blue max-w-lg animate-fade-in animation-delay-200">
-                  I'm a full-stack web developer with a strong interest in frontend development. I build
-                  responsive and scalable web applications using React.js, JavaScript, Node.js, Express.js,
-                  and MongoDB, with experience in REST API development, JWT authentication, and database 
-                  integration. I enjoy creating intuitive user interfaces, integrating APIs, and continuously
-                  learning modern technologies like Next.js and TypeScript.
+                I'm a full-stack web developer who builds responsive and scalable web applications
+                using React.js, Next.js, JavaScript, TypeScript, Node.js, Express.js, and MongoDB.
+                I have experience in REST API development, JWT authentication, and database
+                integration, along with hands-on experience integrating Generative AI and
+                LLM APIs into applications. I enjoy creating intuitive user interfaces,
+                developing full-stack solutions, and exploring emerging web and AI technologies.
               </p>
             </div>
 
@@ -84,10 +85,10 @@ export const Hero = ({ onContactClick }) => {
               </Button>
 
               <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" title="Opens in a new tab — you can download from there">
-                  <AnimatedBorderButton>
-                    <Download className="w-5 h-5" />
-                      Download CV
-                  </AnimatedBorderButton>
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
               </a>
             </div>
 
@@ -95,8 +96,8 @@ export const Hero = ({ onContactClick }) => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-faded-blue">Follow Me</span>
               {[
-                { icon: Github, href: "https://github.com/AmrapaliBala"},
-                { icon: Linkedin, href: "https://www.linkedin.com/in/amrapali-bala-546b78252/"},
+                { icon: Github, href: "https://github.com/AmrapaliBala" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/amrapali-bala-546b78252/" },
               ].map((social, idx) => (
                 <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-cyan-blue/10 hover:text-cyan-blue transition-all duration-300">
                   {<social.icon className="w-5 h-5" />}
@@ -109,7 +110,7 @@ export const Hero = ({ onContactClick }) => {
           {/* right column */}
           <div className="relative animate-fade-in animation-delay-300">
             <div className="relative max-w-md md:max-w-xl lg:max-w-2xl mx-auto">
-              
+
               <div className="relative p-2">
                 <img src="/profile.png" alt="" className="w-full object-cover rounded-1xl" />
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
@@ -131,8 +132,8 @@ export const Hero = ({ onContactClick }) => {
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee">
               {[...skills, ...skills].map((skill, idx) => (
-              <div key={idx} className="flex-shrink-0 px-8 py-4"><span className="text-xl font-semibold text-faded-blue/50 hover:text-faded-blue transition-colors">{skill}</span></div>
-               ))}
+                <div key={idx} className="flex-shrink-0 px-8 py-4"><span className="text-xl font-semibold text-faded-blue/50 hover:text-faded-blue transition-colors">{skill}</span></div>
+              ))}
             </div>
           </div>
         </div>

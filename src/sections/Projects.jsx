@@ -20,12 +20,12 @@ const projects = [
     github: "https://github.com/AmrapaliBala/noteFlow-nextjs-reactjs-javascript-tailwind-framermotion",
   },
   {
-    title: "Penny flow",
-    description: "This project is a fully responsive Expense Tracker web application that helps users monitor their income and expenses in real time. It dynamically calculates total income, total expenses, and the remaining balance based on user input, providing a clear financial overview at a glance.",
-    image: "/projects/Pennyflow.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    link: "https://penny-flow-html-css-javascript.vercel.app/",
-    github: "https://github.com/AmrapaliBala/penny-flow-html-css-javascript",
+    title: "PennyflowMern",
+    description: "PennyFlow MERN is a full-stack personal finance management application converted from my original frontend-only PennyFlow project. It enables users to manage income and expenses, track balances, and view transaction summaries, with secure authentication, Google Sign-In, email OTP-based password recovery, and an AI-powered financial assistant using Google Gemini to provide personalized spending insights.",
+    image: "/projects/PennyFlowMern.png",
+    tags: ["Reactjs", "Nodejs", "Expressjs","MongoDB","GeminiAPI","JWT","OAuth2.0"],
+    link: "https://pennyflow-prjc.onrender.com",
+    github: "https://github.com/AmrapaliBala/pennyFlow-Mern",
   },
     {
     title: "Dashboard",
