@@ -71,7 +71,7 @@ export const Hero = ({ onContactClick }) => {
 
               <p className="text-lg text-faded-blue max-w-lg animate-fade-in animation-delay-200">
                 I'm a full-stack web developer who builds responsive and scalable web applications
-                using React.js, Next.js, JavaScript, TypeScript, Node.js, Express.js, and MongoDB.
+                using React.js, Next.js, JavaScript, Node.js, Express.js, and MongoDB.
                 I have experience in REST API development, JWT authentication, and database
                 integration, along with hands-on experience integrating Generative AI and
                 LLM APIs into applications. I enjoy creating intuitive user interfaces,

@@ -48,7 +48,7 @@ export const About = () => {
 
             <div className="space-y-4 text-faded-blue animate-fade-in animation-delay-200">
               <p>
-                I am a full-stack web developer with experience building modern, responsive, and user-friendly web applications using React.js, Next.js, JavaScript, TypeScript, Node.js, Express.js, and MongoDB. I enjoy developing end-to-end solutions, from creating intuitive user interfaces to building RESTful APIs and integrating databases. I am passionate about crafting clean frontend experiences while also working on backend logic and scalable application architectures.
+                I am a full-stack web developer with experience building modern, responsive, and user-friendly web applications using React.js, Next.js, JavaScript, Node.js, Express.js, and MongoDB. I enjoy developing end-to-end solutions, from creating intuitive user interfaces to building RESTful APIs and integrating databases. I am passionate about crafting clean frontend experiences while also working on backend logic and scalable application architectures.
               </p>
 
               <p>
@@ -59,7 +59,7 @@ export const About = () => {
                 I am proficient with development and deployment tools including Git, GitHub, Postman, Figma, Vercel, and Render. I also have hands-on experience integrating Generative AI and LLM APIs, including Google Gemini, into full-stack applications to develop AI-powered features. I am continuously exploring AI technologies and their practical applications in web development. I enjoy solving real-world problems, writing clean and maintainable code, and building innovative, high-quality software solutions.
               </p>
             </div>
-            
+
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-whitish-grey">
                 I like my code clean and my designs responsive.
